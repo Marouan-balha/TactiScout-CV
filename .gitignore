@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local footage and annotations
+*.mp4
+*.mov
+annotation_frames/
+data/
+
+# Model weights and generated training artifacts
+*.pt
+*.onnx
+models/
+runs/
+output/
+
+# Cloned reference projects and archives
+reference/
+TactivisonV2.yolov8/
+*.zip
+
+# Local machine files
+.env
+.DS_Store
